@@ -1,11 +1,20 @@
 import './App.css'
+import Navbar from './components/navbar/navbar'
+import Players from './components/players/players'
+import Banner from './components/sections/banner'
+import Footer from './components/sections/footer'
+
 
 function App() {
   return (
     <>
-      <h1 className='text-6xl bg-red-300'>Knowledge Cafe</h1>
+        <Navbar></Navbar>
+        <Banner></Banner>
+        <Players></Players>
+        <Footer></Footer>
     </>
   )
 }
 
 export default App
+       
