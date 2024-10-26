@@ -1,6 +1,8 @@
 import logo from '../../assets/logo.png'
 import coin from '../../assets/coin.webp'
-const Navbar = () => {
+import PropTypes from 'prop-types';
+
+const Navbar = ({Balance}) => {
     return (
         <div className='flex justify-between items-center w-10/12 mx-auto my-5'>
             <img className='w-12' src={logo} alt="logo" />
@@ -12,12 +14,16 @@ const Navbar = () => {
                 <p>Schedules</p>
                 </div>
                 <div className='border rounded-xl px-3 py-1 text-black flex items-center text-xs'>
-                        <p>0 Coin</p>
+                        <p>{Balance} Coin</p>
                         <img className='w-7' src={coin} alt="Coin Icon" />
                 </div>
             </div>
         </div>
     );
 };
+
+Navbar.propTypes = {
+    Balance: PropTypes.number
+}
 
 export default Navbar;

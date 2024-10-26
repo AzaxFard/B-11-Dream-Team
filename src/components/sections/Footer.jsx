@@ -1,7 +1,7 @@
 import logoFooter from '../../assets/logo-footer.png'
 const Footer = () => {
     return (
-        <div className="bg-[#06091A]">
+        <div className="bg-[#06091A] mt-52">
             {/* subscribe to newsletter section */}
             <div className="w-10/12 mx-auto p-4 border rounded-xl relative bottom-32">
                 <div className=" bg-white text-center items-center flex flex-col gap-2 border rounded-xl py-14 bg-[url('https://i.ibb.co.com/zJ4tCBv/bg-shadow.png')] bg-cover">

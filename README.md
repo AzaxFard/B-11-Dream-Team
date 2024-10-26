@@ -1,8 +1,11 @@
-# React + Vite
+# B-11 Dream Team
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+B-11 Dream Team is a sport site for sport personnel where a user can see the details of a player. They can claim free credits and bid players for their team. Users can also keep track of selected players through selection tab and remove any unwanted players too.
 
-Currently, two official plugins are available:
+Features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Data categorization
+2. Dynamic Data fetching
+3. Mobile, Tab, PC responsive
+4. Validation
+
