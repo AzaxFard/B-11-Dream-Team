@@ -2,7 +2,7 @@ import bannerLogo from '../../assets/banner-main.png'
 
 const Banner = () => {
     return (
-        <div className="bg-black w-10/12 mx-auto my-5 text-white text-center flex flex-col items-center rounded-xl py-8 gap-5 bg-[url('https://i.ibb.co.com/zJ4tCBv/bg-shadow.png')]">
+        <div className="bg-black w-10/12 mx-auto my-5 text-white text-center flex flex-col items-center rounded-xl py-8 gap-5 bg-[url('https://i.ibb.co.com/zJ4tCBv/bg-shadow.png')] bg-cover">
             <div className='w-40'>
                 <img className='w-full' src={bannerLogo} alt="Banner Logo" />
             </div>
