@@ -1,9 +1,8 @@
 import './App.css'
 import Navbar from './components/navbar/navbar'
-import Players from './components/players/players'
+import Players from './components/players/Players'
 import Banner from './components/sections/banner'
 import Footer from './components/sections/footer'
-import SelectedPlayers from './components/players/SelectedPlayers';
 import { useState } from 'react';
 
 
@@ -35,11 +34,8 @@ function App() {
     <>
         <Navbar Balance={Balance}></Navbar>
         <Banner handleClaimCredit={handleClaimCredit}></Banner>
-        <div className=''>
+        <div>
           <Players handleSelectedPlayers={handleSelectedPlayers}></Players>
-        </div>
-        <div className=''>
-          <SelectedPlayers selectedPlayers={selectedPlayers}></SelectedPlayers>
         </div>
         <Footer></Footer>
     </>
